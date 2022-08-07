@@ -1,0 +1,16 @@
+.Navigation {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+ul{
+    display: flex; 
+}
+
+li{
+    list-style: none;
+    color: #353D40;
+    padding-left: 15px;
+}

@@ -1,0 +1,10 @@
+.Contact{
+    background-color: #A4A5A6;
+}
+
+.ulContact{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
