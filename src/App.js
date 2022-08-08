@@ -6,6 +6,7 @@ import Navigation from './Components/Navigation/Navigation';
 import Contact from './Components/Contact/Contact';
 import FrontPage from './Components/FrontPage/FrontPage';
 import CardFront from './Components/CardFront/CardFront';
+import Nosotros from './Components/Nosotros/Nosotros';
 
 //Views
 
@@ -33,7 +34,7 @@ function App() {
       title="Derecho Penal" 
       description="Defensas penales, asesoramiento integral..."/>
       </div>
-     
+     <Nosotros />
     </div>
   );
 }
