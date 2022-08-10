@@ -7,6 +7,7 @@ import Contact from './Components/Contact/Contact';
 import FrontPage from './Components/FrontPage/FrontPage';
 import CardFront from './Components/CardFront/CardFront';
 import Nosotros from './Components/Nosotros/Nosotros';
+import Diferencia from './Components/Diferencia/Diferencia';
 
 //Views
 
@@ -35,6 +36,7 @@ function App() {
       description="Defensas penales, asesoramiento integral..."/>
       </div>
      <Nosotros />
+     <Diferencia />
     </div>
   );
 }

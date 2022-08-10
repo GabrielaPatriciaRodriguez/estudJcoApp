@@ -1,0 +1,6 @@
+.Diferencia{
+    color: aliceblue;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 20px 0px 20px;
+}
