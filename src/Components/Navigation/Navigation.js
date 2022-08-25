@@ -6,8 +6,8 @@ const Navigation = () => {
     <div className='Navigation'>
         <ul>
             <li>Home</li>
-            <li>Nosotros</li>
             <li>Servicios</li>
+            <li>Nosotros</li>
             <li>Contacto</li>
         </ul>
     </div>

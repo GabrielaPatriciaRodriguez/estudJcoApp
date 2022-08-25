@@ -5,7 +5,6 @@ import "./App.css";
 import Navigation from "./Components/Navigation/Navigation";
 import Contact from "./Components/Contact/Contact";
 import FrontPage from "./Components/FrontPage/FrontPage";
-import CardFront from "./Components/CardFront/CardFront";
 import Nosotros from "./Components/Nosotros/Nosotros";
 import Diferencia from "./Components/Diferencia/Diferencia";
 import CardServicios from "./Components/CardServicios/CardServicios";

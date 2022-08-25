@@ -3,7 +3,8 @@ import CardFront from '../../Components/CardFront/CardFront';
 
 const CardServicios = () => {
   return (
-    <div style={{display: "flex", justifyContent: "center"}}>
+    <div style={{display: "grid", gridTemplateColumns: "auto", justifyContent: "center", marginTop: -135}}>
+      <div style={{display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gridTemplateRows: "auto", gap: 20}}>  
       <CardFront 
       image="https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804061/proyectoEstudio/assets/tinified/formulario_j2atvi.jpg"
       title="Derecho de Familia" 
@@ -20,6 +21,23 @@ const CardServicios = () => {
       image="https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/principal3_tafks9.jpg"
       title="Derecho Penal" 
       description="Defensas penales, asesoramiento integral..."/>
+      <CardFront 
+      image="https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/principal3_tafks9.jpg"
+      title="Administracion de Propiedades" 
+      description="Defensas penales, asesoramiento integral..."/>
+      <CardFront 
+      image="https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/principal3_tafks9.jpg"
+      title="Sucesiones" 
+      description="Defensas penales, asesoramiento integral..."/>
+      <CardFront 
+      image="https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/principal3_tafks9.jpg"
+      title="Prescripciones Adquisitivas" 
+      description="Defensas penales, asesoramiento integral..."/>
+      <CardFront 
+      image="https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/principal3_tafks9.jpg"
+      title="Accidentes de Transito" 
+      description="Defensas penales, asesoramiento integral..."/>
+      </div>
       </div>
   )
 }

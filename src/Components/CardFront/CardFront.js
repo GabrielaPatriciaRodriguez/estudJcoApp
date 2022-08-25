@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 export default function CardFront(props) {
   return (
-    <Card sx={{ width: 300, margin: 2, marginTop: -15 }}>
+    <Card sx={{ width: 250, margin: 2 }}>
       <CardMedia
         component="img"
         height="120"
