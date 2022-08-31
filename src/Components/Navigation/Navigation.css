@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     align-content: space-around;
+    position: fixed;
+    width: 100%;
 }
 
 ul{

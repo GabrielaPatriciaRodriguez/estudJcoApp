@@ -3,7 +3,7 @@ import "./App.css";
 
 //Components
 import Navigation from "./Components/Navigation/Navigation";
-import Contact from "./Components/Contact/Contact";
+// import Contact from "./Components/Contact/Contact";
 import FrontPage from "./Components/FrontPage/FrontPage";
 import Nosotros from "./Components/Nosotros/Nosotros";
 import Diferencia from "./Components/Diferencia/Diferencia";
@@ -15,7 +15,7 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Contact />
+      {/* <Contact /> */}
       <Navigation />
       <FrontPage />
       <CardServicios />
