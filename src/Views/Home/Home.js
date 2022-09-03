@@ -2,7 +2,7 @@ import React from "react";
 
 import Navigation from "../../Components/Navigation/Navigation";
 import FrontPage from "../../Components/FrontPage/FrontPage";
-import CardServicios from "../../Components/CardServicios/CardServicios";
+import CardList from "../../Components/CardList/CardList";
 import Nosotros from "../../Components/Nosotros/Nosotros";
 import Diferencia from "../../Components/Diferencia/Diferencia";
 import Footer from "../../Components/Footer/Footer";
@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <Navigation />
       <FrontPage />
-      <CardServicios />
+      <CardList />
       <Nosotros />
       <Diferencia />
       <Footer />
