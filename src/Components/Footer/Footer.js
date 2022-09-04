@@ -25,30 +25,31 @@ const Footer = () => {
         </div>
         <div className="contacto">
           <h3>CONTACTO</h3>
-          <p>
-            <LocationOnIcon />
+          <div>
+            <a href="https://goo.gl/maps/8VrbHKM6R9h7VcEh9"><LocationOnIcon /></a>
             Av. Lavalle 291 Gdor. Virasoro Corrientes
-          </p>
-          <p>
-            <WhatsAppIcon />
-            Tel. 3756446393
-          </p>
-          <p>
-            <InstagramIcon />
-            Instagram
-          </p>
-          <p>
-            <EmailIcon />
-            Correo Electronico
-          </p>
+          </div>
+          <div>
+          <a href="https://wa.me/+5493756446393?text=¡Hola+Estudio+Juridico+Bravo+Salgado!+Quiero+hacer+una+consulta.">
+          <WhatsAppIcon />
+          </a>Cel. 3756446393
+          </div>
+          
+      
+          <div>
+          <a href="https://www.instagram.com/estudiojuridicobravosalgado/?hl=es" target="_blank">
+            <InstagramIcon /></a>
+            estudiojuridicobravosalgado
+          </div>
+          <div>
+          <a href="mailto:hernanbravos@hotmail.com?subject=Mi consulta"><EmailIcon/></a>hernanbravos@hotmail.com
+          </div>
         </div>
         
       </div>
       <div style={{ backgroundColor: "black", color: "whitesmoke" }}>
-        <p>
-          <CopyrightIcon />
+          <CopyrightIcon /> Bravo Salgado y Asoc.
           -Todos los derechos reservados-
-        </p>
       </div>
     </div>
   );

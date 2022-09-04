@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import "./CardList.css";
 
 //Component
 import ItemList from "../ItemList/ItemList";
@@ -34,8 +34,8 @@ function CardList() {
 
   return (
     <>
-    <div>
-      <div>
+    <div className="style">
+      <div className="estilo">
         {materias.length > 0 ? <ItemList materias={materias} /> : <Spinner />}
       </div>
     </div>

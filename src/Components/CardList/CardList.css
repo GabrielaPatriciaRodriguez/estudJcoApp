@@ -1,0 +1,26 @@
+.style {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.estilo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .estilo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .estilo{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }

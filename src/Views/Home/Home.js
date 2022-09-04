@@ -6,12 +6,14 @@ import CardList from "../../Components/CardList/CardList";
 import Nosotros from "../../Components/Nosotros/Nosotros";
 import Diferencia from "../../Components/Diferencia/Diferencia";
 import Footer from "../../Components/Footer/Footer";
+import LinkWsp from "../../Components/LinkWsp/LinkWsp";
 
 const Home = () => {
   return (
     <div>
       <Navigation />
       <FrontPage />
+      <LinkWsp />
       <CardList />
       <Nosotros />
       <Diferencia />
