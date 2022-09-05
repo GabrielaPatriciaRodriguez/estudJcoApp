@@ -1,10 +1,11 @@
 import React from "react";
+import Diferencia from "../Diferencia/Diferencia";
 import "../Nosotros/Nosotros.css";
 
 const Nosotros = () => {
   return (
     <div className="Nosotros">
-      <h2>Nosotros</h2>
+      <h2 style={{fontSize: 40 }}>Nosotros</h2>
       <p className="parrafoNosotros">
         Somos un estudio juridico multidisciplinario fundando en el año 2009 en la ciudad de 
         Gdor. Virasoro Provincia de Corrientes.
@@ -18,6 +19,7 @@ const Nosotros = () => {
         construimos, a partir de nuestra experiencia, rigor y estudio, la
         solución más adecuada a su caso concreto. 
       </p>
+      <Diferencia />
     </div>
   );
 };
