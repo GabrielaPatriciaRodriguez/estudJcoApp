@@ -4,7 +4,7 @@ import Item from "../Item/Item";
 const ItemList = ({ materias }) => {
   return (
     <>
-      {materias.map((materia) => (
+    {materias.map((materia) => (
         <Item key={materia.id} data={materia} />
       ))}
     </>

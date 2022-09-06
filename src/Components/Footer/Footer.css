@@ -1,3 +1,8 @@
 .contacto{
     text-align: left;
 }
+
+.contactoIconos{
+    display: flex;
+    align-items: center;
+}

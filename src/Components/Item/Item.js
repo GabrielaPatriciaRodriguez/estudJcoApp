@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 function Item({ data }) {
   return (
     <>
-      <Card sx={{ maxWidth: 300, height: 350, marginTop: 5 }}>
+      <Card sx={{ maxWidth: 300, height: 350, marginTop: 5}}>
         <CardActionArea>
           <CardMedia
             component="img"

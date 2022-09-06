@@ -4,3 +4,8 @@
     width: auto;
     padding: 40px;
 }
+
+.hr{
+    background-color: darkgrey;
+    width: 45px;
+}
