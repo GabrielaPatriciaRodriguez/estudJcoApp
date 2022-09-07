@@ -36,13 +36,13 @@ const Footer = () => {
           <h3>CONTACTO</h3>
           <div className="contactoIconos">
             <a href="https://goo.gl/maps/8VrbHKM6R9h7VcEh9">
-              <LocationOnIcon style={{paddingRight: 10}}/>
+              <LocationOnIcon style={{ paddingRight: 10, color: "black" }} />
             </a>
             <p>Av. Lavalle 291 Gdor. Virasoro Corrientes</p>
           </div>
           <div className="contactoIconos">
             <a href="https://wa.me/+5493756446393?text=¡Hola+Estudio+Juridico+Bravo+Salgado!+Quiero+hacer+una+consulta.">
-              <WhatsAppIcon style={{paddingRight: 10}}/>
+              <WhatsAppIcon style={{ paddingRight: 10, color: "black" }} />
             </a>
             <p>Cel. 3756446393</p>
           </div>
@@ -52,24 +52,32 @@ const Footer = () => {
               href="https://www.instagram.com/estudiojuridicobravosalgado/?hl=es"
               target="_blank"
             >
-              <InstagramIcon style={{paddingRight: 10}}/>
+              <InstagramIcon style={{ paddingRight: 10, color: "black" }} />
             </a>
             <p>estudiojuridicobravosalgado</p>
           </div>
           <div className="contactoIconos">
             <a href="mailto:hernanbravos@hotmail.com?subject=Mi consulta">
-              <EmailIcon style={{paddingRight: 10}}/>
+              <EmailIcon style={{ paddingRight: 10, color: "black" }} />
             </a>
             <p>hernanbravos@hotmail.com</p>
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: "black", color: "whitesmoke", padding: 2, display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <CopyrightIcon style={{paddingRight: 10}}/> 
+      <div
+        style={{
+          backgroundColor: "black",
+          color: "whitesmoke",
+          padding: 2,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <CopyrightIcon style={{ paddingRight: 10 }} />
         <p style={{ fontSize: 14 }}>
-        Bravo Salgado y Asoc. -Todos los derechos reservados-
+          Bravo Salgado y Asoc. -Todos los derechos reservados-
         </p>
-        
       </div>
     </div>
   );

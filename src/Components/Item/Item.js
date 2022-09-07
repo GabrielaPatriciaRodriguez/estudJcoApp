@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 function Item({ data }) {
   return (
     <>
-      <Card sx={{ maxWidth: 300, height: 350, marginTop: 5}}>
+      <Card sx={{ maxWidth: 300, height: 350, marginTop: 5 }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -24,20 +24,20 @@ function Item({ data }) {
             <Typography gutterBottom variant="h5" component="div">
               {data.titulo}
             </Typography>
-            <Link to={`/item/${data.id}`} style={{ textDecoration: "none",}}>
-          <Button
-            style={{
-              margin: 10,
-              borderRadius: 15,
-              borderColor: "gray",
-              color: "whitesmoke",
-              padding: 5,
-              backgroundColor: "gray",
-            }}
-          >
-            + info
-          </Button>
-        </Link>
+            <Link to={`/item/${data.id}`} style={{ textDecoration: "none" }}>
+              <Button
+                style={{
+                  margin: 10,
+                  borderRadius: 15,
+                  borderColor: "gray",
+                  color: "whitesmoke",
+                  padding: 5,
+                  backgroundColor: "gray",
+                }}
+              >
+                + info
+              </Button>
+            </Link>
           </CardContent>
         </CardActionArea>
       </Card>

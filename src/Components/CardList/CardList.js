@@ -34,11 +34,11 @@ function CardList() {
 
   return (
     <>
-    <div className="style">
-      <div className="estilo">
-        {materias.length > 0 ? <ItemList materias={materias} /> : <Spinner />}
+      <div className="style">
+        <div className="estilo">
+          {materias.length > 0 ? <ItemList materias={materias} /> : <Spinner />}
+        </div>
       </div>
-    </div>
     </>
   );
 }
