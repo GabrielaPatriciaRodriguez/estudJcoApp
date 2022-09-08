@@ -6,3 +6,16 @@
     display: flex;
     align-items: center;
 }
+
+.logoFooter{
+    width: 300px;
+    height: 300px;
+    margin-top: -45 
+}
+
+
+@media screen and (max-width: 425px) {
+    .logoFooter{
+        display: none;
+    }
+  }

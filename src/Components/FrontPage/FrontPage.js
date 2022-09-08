@@ -8,7 +8,7 @@ const FrontPage = () => {
         <img
           src="https://res.cloudinary.com/gabycoderhouse/image/upload/v1652345481/proyectoEstudio/assets/logosYColores/fondo_transparente_1_x6ay3y.png"
           alt="logo"
-          style={{ width: 550, height: 550, marginTop: -45 }}
+          className="imagenPortada"
         />
       </h1>
     </div>
@@ -16,3 +16,4 @@ const FrontPage = () => {
 };
 
 export default FrontPage;
+

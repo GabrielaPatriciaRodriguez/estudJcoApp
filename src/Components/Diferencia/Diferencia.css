@@ -6,3 +6,8 @@
     font-size: 18px;
 }
 
+@media screen and (max-width: 425px) {
+    .Diferencia{
+        grid-template-columns: 1fr;
+    }
+  }

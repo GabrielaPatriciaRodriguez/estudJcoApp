@@ -17,3 +17,12 @@ li{
     color: #353D40;
     padding-left: 15px;
 }
+
+@media screen and (max-width: 425px) {
+    ul{
+        flex-direction: column;
+    }
+    li{
+        padding: 8px;
+    }
+  }

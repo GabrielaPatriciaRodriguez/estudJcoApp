@@ -29,7 +29,7 @@ const Footer = () => {
           <img
             src="https://res.cloudinary.com/gabycoderhouse/image/upload/v1652345481/proyectoEstudio/assets/logosYColores/fondo_transparente_1_x6ay3y.png"
             alt="logo"
-            style={{ width: 300, height: 300, marginTop: -45 }}
+            className="logoFooter"
           />
         </div>
         <div className="contacto">

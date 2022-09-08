@@ -1,7 +1,19 @@
-.FrontPage{
-    width: auto;
-    height: 500px;
-    background-image: url(https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/clientesFelices_qxrtrr.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.FrontPage {
+  width: auto;
+  height: 500px;
+  background-image: url(https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/clientesFelices_qxrtrr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagenPortada{
+    width: 450px; 
+    height: 450px;
+}
+
+@media screen and (max-width: 425px) {
+  .imagenPortada {
+    max-width: 420px;
+    min-width: auto;
+  }
 }
