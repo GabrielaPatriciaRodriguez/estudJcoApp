@@ -1,5 +1,5 @@
 .FrontPage {
-  width: auto;
+  width: 100%;
   height: 500px;
   background-image: url(https://res.cloudinary.com/gabycoderhouse/image/upload/v1636804063/proyectoEstudio/assets/tinified/clientesFelices_qxrtrr.jpg);
   background-size: cover;
@@ -7,13 +7,12 @@
 }
 
 .imagenPortada{
-    width: 450px; 
+    width: 40%; 
     height: 450px;
 }
 
 @media screen and (max-width: 425px) {
   .imagenPortada {
     max-width: 420px;
-    min-width: auto;
   }
 }

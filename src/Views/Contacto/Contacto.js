@@ -2,12 +2,13 @@ import React from "react";
 import Footer from "../../Components/Footer/Footer";
 import FrontPage from "../../Components/FrontPage/FrontPage";
 import LinkWsp from "../../Components/LinkWsp/LinkWsp";
-import Navigation from "../../Components/Navigation/Navigation";
+import NavBar from "../../Components/Nav/NavBar";
+
 
 const VistaNosotros = () => {
   return (
     <>
-    <Navigation />
+    <NavBar />
     <FrontPage />
     <LinkWsp />
     <Footer />
