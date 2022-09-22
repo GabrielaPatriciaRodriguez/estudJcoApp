@@ -18,7 +18,7 @@ const LinkWsp = () => {
             sx={{
               fontSize: 60,
               color: "#25D366",
-              padding: 4,
+              marginLeft: 3,
             }}
           />
         </a>

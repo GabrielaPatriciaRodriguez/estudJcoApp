@@ -4,10 +4,11 @@
     justify-content: center;
     align-content: center;
     color: aliceblue;
+    padding-top: 100px;
 }
 
 .parrafoNosotros{
-    padding: 10px 40px 10px 40px;
+    padding: 10px 40px 100px 40px;
     font-size: 20px;
     line-height: 2;
 }

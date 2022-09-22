@@ -36,13 +36,13 @@ const Footer = () => {
           <h3>CONTACTO</h3>
           <div className="contactoIconos">
             <a href="https://goo.gl/maps/8VrbHKM6R9h7VcEh9">
-              <LocationOnIcon style={{ paddingRight: 10, color: "black" }} />
+              <LocationOnIcon style={{ paddingRight: 10, color: "black", fontSize: 40,}} />
             </a>
             <p>Av. Lavalle 291 Gdor. Virasoro Corrientes</p>
           </div>
           <div className="contactoIconos">
             <a href="https://wa.me/+5493756446393?text=¡Hola+Estudio+Juridico+Bravo+Salgado!+Quiero+hacer+una+consulta.">
-              <WhatsAppIcon style={{ paddingRight: 10, color: "black" }} />
+              <WhatsAppIcon style={{ paddingRight: 10, color: "black", fontSize: 40, }} />
             </a>
             <p>Cel. 3756446393</p>
           </div>
@@ -52,13 +52,13 @@ const Footer = () => {
               href="https://www.instagram.com/estudiojuridicobravosalgado/?hl=es"
               target="_blank"
             >
-              <InstagramIcon style={{ paddingRight: 10, color: "black" }} />
+              <InstagramIcon style={{ paddingRight: 10, color: "black", fontSize: 40, }} />
             </a>
             <p>estudiojuridicobravosalgado</p>
           </div>
           <div className="contactoIconos">
             <a href="mailto:hernanbravos@hotmail.com?subject=Mi consulta">
-              <EmailIcon style={{ paddingRight: 10, color: "black" }} />
+              <EmailIcon style={{ paddingRight: 10, color: "black", fontSize: 40, }} />
             </a>
             <p>hernanbravos@hotmail.com</p>
           </div>

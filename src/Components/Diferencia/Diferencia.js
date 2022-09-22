@@ -5,7 +5,7 @@ import "../Diferencia/Diferencia.css";
 const Diferencia = () => {
   return (
     <>
-      <h2 style={{ color: "whitesmoke", fontSize: 40 }}>
+      <h2 style={{ color: "whitesmoke", fontSize: 40, paddingBottom: 50 }}>
         En nuestro Estudio Juridico encontrará
       </h2>
       <div className="Diferencia">
