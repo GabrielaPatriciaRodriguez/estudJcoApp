@@ -9,6 +9,9 @@ const Nav = styled.nav`
   padding: 0 20px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  background-color: #002538;
+  z-index: 14;
 `;
 
 const NavBar = () => {

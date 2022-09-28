@@ -23,7 +23,7 @@ const Ul = styled.ul`
     height: 100vh;
     width: 300px;
     padding-top: 3.5rem;
-    transform: ${({ open }) => open ? "translateX(100%)" : "translateX(0)"};
+    transform: ${({ open }) => open ? "translateX(0)" : "translateX(100%)"};
     transition: transform 0.3s ease-in-out;
     z-index: 15;
 
